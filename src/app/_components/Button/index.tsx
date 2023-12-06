@@ -1,6 +1,6 @@
 'use client'
 
-import React, { Children, ElementType } from 'react'
+import React, { ElementType } from 'react'
 import Link from 'next/link'
 
 import classes from './index.module.scss'

@@ -495,7 +495,7 @@ export interface Header {
 }
 export interface Footer {
   id: string;
-  copyright: string;
+  copyright?: string;
   navItems?: {
     link: {
       type?: 'reference' | 'custom';
